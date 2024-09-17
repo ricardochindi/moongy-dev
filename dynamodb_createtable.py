@@ -9,7 +9,7 @@ import boto3
 dynamodb = boto3.resource('dynamodb')
 
 # Define the table name
-table_name = 'demo02'
+table_name = '<nome da tabela>'
 
 # Define the table schema
 table = dynamodb.create_table(
